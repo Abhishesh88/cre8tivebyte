@@ -12,22 +12,22 @@ import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  desc: "Customized solutions, increased productivity, scalability, cost savings, and a competitive edge. Experience improved customer experience, data-driven insights, ongoing support, enhanced security, and seamless collaboration.",
   image: benefitOneImg,
   bullets: [
     {
       title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      desc: "Understand your customers deeply and tailor your offerings to meet their needs effectively.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Cost Savings",
+      desc: "By leveraging our services, you can reduce operational costs, eliminate manual and repetitive tasks, and optimize resource allocation, resulting in significant savings",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Competitive Advantage",
+      desc: "Our cutting-edge technology and innovative solutions give you a competitive edge, helping you stand out in the market and attract more customers",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -35,22 +35,22 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: "Gain a deeper understanding of your customers, drive customer loyalty, enhance customer satisfaction, improve decision-making, and deliver personalized experiences that set your business apart from the competition.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Mobile App Development",
+      desc: "Deliver exceptional user experiences and expand your reach with our comprehensive mobile development services.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Collaboration and Communication",
+      desc: "Our solutions foster better collaboration and communication within your organization, improving teamwork, knowledge sharing, and overall productivity.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Enhanced Security",
+      desc: "We prioritize the security of your data and systems, implementing robust security measures to protect against cyber threats and ensure data privacy.",
       icon: <SunIcon />,
     },
   ],

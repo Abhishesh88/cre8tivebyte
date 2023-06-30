@@ -35,22 +35,42 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What kind of software solutions do you offer?",
+    answer: "We offer a wide range of software solutions including web applications, mobile apps, enterprise software, custom software development, and more. Our team has expertise in various technologies and platforms to cater to diverse business needs.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Can you customize the software solutions according to our specific requirements?",
+    answer: "Absolutely! We specialize in providing customized software solutions tailored to your unique business needs. We collaborate closely with you to understand your requirements and deliver a solution that aligns perfectly with your goals.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How long does it take to develop a software solution?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "The development timeline varies depending on the complexity and scope of the project. We work closely with you to define project milestones and provide you with a clear timeline. Timely delivery is one of our priorities, and we strive to meet agreed-upon deadlines.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "What kind of ongoing support do you provide? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "We provide comprehensive ongoing support and maintenance services to ensure the smooth operation of your software solution. Our support team is available to address any issues or concerns you may have and provide updates or enhancements as needed.",
+  },
+  {
+    question: "How do you ensure the security of our data and systems? ",
+    answer:
+      "We prioritize the security of your data and systems. We follow industry best practices and implement robust security measures to protect against cyber threats and ensure data privacy. Our team is experienced in implementing secure software solutions.",
+  },
+  {
+    question: "Can you develop mobile apps for both iOS and Android platforms? ",
+    answer:
+      "Yes, we have expertise in developing mobile apps for both iOS and Android platforms. We leverage the latest technologies and frameworks to create high-performing and user-friendly mobile applications.",
+  },
+  {
+    question: "How do we get started with your services? ",
+    answer:
+      "Getting started is simple! Reach out to us through our contact form or give us a call. We'll schedule a consultation to discuss your requirements, provide recommendations, and outline the next steps in the development process.",
+  },
+  {
+    question: "Do you work with clients from different industries? ",
+    answer:
+      "Yes, we work with clients from various industries, including healthcare, finance, e-commerce, education, and more. Our team has the versatility and adaptability to cater to different industry-specific needs.",
   },
 ];
 

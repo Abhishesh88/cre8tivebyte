@@ -20,24 +20,21 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <Image
-                      src="/img/logo.svg"
+                    {/* <Image
+                      src="/img/logo.png"
                       alt="N"
                       width="32"
                       height="32"
                       className="w-8"
-                    />
-                  <span>Nextly</span>
+                    /> */}
+                  <span>Cre8tiveByte</span>
               </Link>
             </div>
-
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+            At Cre8tiveByte, we are a leading software solution company dedicated to unlocking the full potential of digital innovation. With our team of highly skilled professionals, we strive to provide cutting-edge software services that empower businesses to thrive in the digital landscape.
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -50,7 +47,7 @@ export default function Footer() {
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -112,19 +109,13 @@ export default function Footer() {
             href="https://web3templates.com/"
             target="_blank"
             rel="noopener">
-            Web3Templates.
+            Cre8tiveByte.
           </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
-          </a>
+         
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      {/* <Backlink /> */}
     </div>
   );
 }

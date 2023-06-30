@@ -8,7 +8,7 @@ import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
+// import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Cre8tiveByte - Free Nextjs & TailwindCSS Landing Page Template</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="At Cre8tiveByte, we are a leading software solution company dedicated to unlocking the full potential of digital innovation. With our team of highly skilled professionals, we strive to provide cutting-edge software services that empower businesses to thrive in the digital landscape."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,11 +27,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Cre8tiveByte Benefits"
+        title="Why should you should choose us?">
+        Expertise, customization, and cutting-edge tech combine in our software services. We collaborate closely, delivering high-quality solutions tailored to your needs. Timely delivery, ongoing support, and client satisfaction drive our approach. Choose us for innovative software solutions that propel your business forward.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -51,11 +49,10 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      Get answers to common questions about our services, including software solutions, customization options, development timelines, ongoing support, security measures, mobile app development, and how to get started.
       </SectionTitle>
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
       <Footer />
       <PopupWidget />
     </>
