@@ -39,18 +39,18 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile App Development",
-      desc: "Deliver exceptional user experiences and expand your reach with our comprehensive mobile development services.",
+      title: "Customized Solutions for Every Business",
+      desc: "Our software development service company crafts tailor-made solutions that align with your unique business needs, empowering you to optimize operations, enhance efficiency, and drive growth.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Collaboration and Communication",
-      desc: "Our solutions foster better collaboration and communication within your organization, improving teamwork, knowledge sharing, and overall productivity.",
+      title: "Seamless Integration and Scalability",
+      desc: "With our expertise in software development, we ensure seamless integration of new solutions into your existing systems, providing scalability that adapts to your evolving business requirements, now and in the future",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Enhanced Security",
-      desc: "We prioritize the security of your data and systems, implementing robust security measures to protect against cyber threats and ensure data privacy.",
+      title: "Robust Support and Maintenance",
+      desc: "We offer comprehensive support and maintenance services, ensuring your software runs smoothly and remains up-to-date, minimizing downtime, and allowing you to focus on core business activities.",
       icon: <SunIcon />,
     },
   ],

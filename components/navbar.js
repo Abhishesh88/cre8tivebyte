@@ -22,15 +22,15 @@ const Navbar = () => {
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>
-                      {/* <Image
+                    {/* <span>
+                      <Image
                         src="/img/logo.png"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
-                      /> */}
-                    </span>
+                        width="100"
+                        height="10"
+                        
+                      />
+                    </span> */}
                     <span>Cre8tiveByte</span>
                   </span>
                 </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                   </svg>
                 </Disclosure.Button>
 
-                <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+                {/* <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
                       <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
@@ -69,14 +69,14 @@ const Navbar = () => {
                         Get Started
                     </Link>
                   </>
-                </Disclosure.Panel>
+                </Disclosure.Panel> */}
               </div>
             </>
           )}
         </Disclosure>
 
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        {/* <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
@@ -86,7 +86,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
