@@ -5,11 +5,10 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Services",
+    "Benifits",
+    "Customer Reviews",
+    "FAQs",
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
